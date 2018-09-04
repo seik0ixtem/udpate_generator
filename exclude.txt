@@ -1,0 +1,1 @@
+drop_column_create_date (ЭТО ШАБЛОН, КТО ПОХЕРИТ, УБЬЮ).sql

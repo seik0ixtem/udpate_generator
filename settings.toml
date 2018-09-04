@@ -1,0 +1,18 @@
+[main]
+# 1 - Error, 2 - Warn, 3 - Info, 4 - Debug, 5 - Trace
+term_log_level = 'DEBUG'
+file_log_level = 'DEBUG'
+# корневая директория, в которой будем искать файлы, из которых генерируем пакет
+#    обновлений
+# new_files_root_dir = 'U:\project\update\update_2099.XX.XX'
+new_files_root_dir = 'd:\temp\update\update_2099.XX.XX'
+# корневая директория расположения обновлений.
+#   уже внутри этой директории будут располагататься директории update_2018, update_2019 и т.д.
+#   а уже внутри них будут располагаться update_2018_06_04
+#   Итоговая структура такая:
+#    <update_location_root>\update_<year>\update_<year_mon_day>\0<x>. Разное
+# update_location_root = 'U:\project\update'
+update_location_root = 'd:\temp\update'
+
+# директория с образцами файлов, суммарное расположение: <new_files_root_dir>/<sample_rel_dir>
+sample_rel_dir = 'XXX Разное'
